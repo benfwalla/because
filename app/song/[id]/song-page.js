@@ -14,7 +14,7 @@ export default async function SongPage({ songData }) {
     return (
       <div>
         <TopAppBar />
-        <Box sx={{ paddingTop: '64px' }}>
+        <Box sx={{ paddingTop: '16px' }}>
           {songData && (
             <Card sx={{ padding: '16px' }}>
               <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>

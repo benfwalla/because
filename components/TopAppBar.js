@@ -29,7 +29,7 @@ export default async function TopAppBar() {
   }
 
   return (
-    <AppBar position="fixed" sx={{ background: '#FFEB3B' }}>
+    <AppBar position="static" sx={{ background: '#FFEB3B', flexGrow: 1 }}>
       <Toolbar>
 
         <Link href="/">

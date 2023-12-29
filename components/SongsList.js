@@ -9,7 +9,7 @@ function SongsList({ songs }) {
 
   return (
     <Box>
-      <Typography variant="h4" gutterBottom>Songs</Typography>
+      <Typography variant="h4" gutterBottom className="text-3xl font-bold">Songs</Typography>
       <Grid container spacing={2}>
         {songs.map((song) => (
           <Grid item xs={12} sm={6} lg={4} key={song.id}>

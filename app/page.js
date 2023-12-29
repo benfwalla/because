@@ -30,7 +30,7 @@ export default async function Page() {
   return (
     <div>
       <TopAppBar />
-      <div style={{ paddingTop: '64px' }}>
+      <div style={{ paddingTop: '16px' }}>
         <SongsList songs={songs} />
       </div>
     </div>
